@@ -4,10 +4,7 @@ import { LOG_IN_FAILURE, LOG_IN_REQUEST, LOG_IN_SUCCESS }  from "./user.types"
 
 const initialState = {
   error:null,
-  userData:{
-    id : '',
-    pw: ''
-  }
+  userData: null
 }
 
 export const userReducers = (state = initialState, action) => {
